@@ -1,0 +1,40 @@
+*{
+    list-style-type: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, a{
+    color: #555;
+}
+.container{
+    margin: 0 20%;
+}
+
+.products{
+    margin-top: 80px;
+}
+.products ul{
+    padding-inline-start: 0;
+}
+
+.products ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 5px 20px -15px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+li p{
+    width: 150px;
+}
+
+
+@media (max-width: 600px) 
+{
+    .container{
+        margin: 0 10px;
+    }
+}
